@@ -1,0 +1,187 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Aasish Bharadwaja</title>
+    <style>
+        body {
+            font-family: sans-serif;
+            margin: 0;
+            background-color: #f4f4f4; /* Softer background */
+            color: #333;
+            overflow-x: hidden; /* Prevent scrollbar for marquee */
+        }
+
+        .container {
+            max-width: 800px;
+            margin: 20px auto;
+            padding: 20px;
+            background-color: white;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Softer shadow */
+            border-radius: 8px; /* Slightly rounded corners */
+        }
+
+        header {
+            text-align: center;
+            padding-bottom: 20px;
+            background-color: #007bff; /* Blue header background */
+            color: white; /* White text in header */
+            padding: 20px 0; /* Add padding to header */
+            border-radius: 8px 8px 0 0; /* Round only top corners */
+        }
+
+        h1 {
+            font-size: 2em;
+            margin-bottom: 10px;
+        }
+
+        h2 {
+            font-size: 1.5em;
+            margin-bottom: 10px;
+            border-bottom: 2px solid #007bff; /* Blue underline */
+            padding-bottom: 5px;
+            color: #333; /* Darker heading color */
+        }
+
+        p {
+            line-height: 1.5;
+            margin-bottom: 10px;
+        }
+
+        #skills p {
+            display: inline-block;
+            margin-right: 10px;
+            padding: 5px 10px;
+            border: 1px solid #007bff; /* Blue border */
+            border-radius: 5px;
+            background-color: #e9ecef; /* Light gray background for skills */
+            color: #333;
+
+        }
+
+        #about {
+            margin-bottom: 20px;
+        }
+
+        #EDUCATION {
+            margin-bottom: 20px;
+        }
+
+        #contact {
+            margin-bottom: 20px;
+        }
+
+        #contact a {
+            color: #007bff;
+            text-decoration: none;
+            transition: color 0.3s; /* Smooth color transition */
+        }
+
+        #contact a:hover {
+            color: #0056b3; /* Darker blue on hover */
+            text-decoration: underline;
+        }
+
+        footer {
+            text-align: center;
+            padding: 10px 0;
+            background-color: #333;
+            color: white;
+            border-radius: 0 0 8px 8px; /* Round only bottom corners */
+        }
+
+        .moving-text-container {
+            background-color: #007bff; /* Blue marquee */
+            color: white;
+            padding: 10px;
+            overflow: hidden;
+            white-space: nowrap;
+        }
+
+        .moving-text {
+            animation: marquee 20s linear infinite;
+        }
+
+        @keyframes marquee {
+            0% { transform: translateX(100%); }
+            100% { transform: translateX(-100%); }
+        }
+
+                /* Add some subtle animations */
+        .container:hover {
+            transform: scale(1.01); /* Slightly scale up on hover */
+            transition: transform 0.3s ease; /* Smooth scaling */
+        }
+
+        #skills p:hover {
+            background-color: #007bff; /* Blue background on skill hover */
+            color: white;
+            transform: translateY(-2px); /* Move skill up slightly */
+            transition: all 0.2s ease;
+        }
+
+        #skills p {
+            transition: all 0.2s ease;
+        }
+
+
+        #about p {
+            animation: fadeIn 1s ease-in; /* Fade in animation for about text */
+        }
+
+        @keyframes fadeIn {
+            from {
+                opacity: 0;
+            }
+            to {
+                opacity: 1;
+            }
+        }
+    </style>
+</head>
+<body>
+
+    <div class="moving-text-container">
+        <div class="moving-text">Welcome to my portfolio! I'm a passionate Student searching for internships. </div>
+    </div>
+
+    <div class="container">
+        <header>
+            <h1>Aasish Bharadwaja</h1>
+            <section id="skills">
+                <h2>Skills</h2>
+                <p>Web Developer & Designer</p>
+                <p>Java</p>
+                <p>Database</p>
+                <p>Communication</p>
+                <p>C++</p>
+            </section>
+        </header>
+
+        <section id="about">
+            <h2>About Me</h2>
+            <p>Dedicated and enthusiastic BCA student seeking an internship to gain practical experience in software development. Proficient in Java, C++ and Web Development. Eager to apply theoretical knowledge to real-world projects and contribute to innovative solutions.</p>
+        </section>
+
+        <section id="EDUCATION">
+            <h2>Education</h2>
+            <p>Bachelor of Computer Applications (BCA)<br>
+            Osmania University, Hyderabad, Telangana<br>
+            Expected Graduation: [2023-2026]<br>
+            Relevant Coursework: Data Structures, Algorithms, Database Management Systems, Operating Systems, Computer Networks</p>
+        </section>
+
+        <section id="contact">
+            <h2>Contact</h2>
+            <p>Email: aasishbharadwaja334@gmail.com</p>
+            <p>LinkedIn: <a href="www.linkedin.com/in/aasish-bharadwaja-648557217" target="_blank">www.linkedin.com/in/aasish-bharadwaja-648557217</a></p>
+            <p>Github : https://github.com/Aasish357/vigilant-broccoli</p>
+        </section>
+    </div>
+
+    <footer>
+        <p>Thank You</p>
+    </footer>
+
+</body>
+</html>
